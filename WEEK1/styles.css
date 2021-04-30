@@ -4,20 +4,46 @@ h1{color: white;
     font-family: Oswald;}
 h2{color: #F1B24A;
     font-family: Oswald;}
-h3{color: #9DC88D}
-p{color: #F1B24A;}
-ul{color: white;
-   position: relative;
-    left: 100px;
-    list-style-type: square;}
+h3{color: #164A41}
+p{color: #4D774E}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+   
+    padding: 20px;
+  }
+  
+.grid-container > div {
+    
+    text-align: center;
+    padding: 30px 0;
+    
+  }
+  
+  .item1 {
+    grid-row: 1 / 4;
+  }
 
 
+.blob{
+    
+        padding: 10%;     
+        border-top-left-radius: 70% 60%;
+        border-top-right-radius: 30% 40%;
+        border-bottom-right-radius: 30% 60%;
+        border-bottom-left-radius: 70% 40%;
+        background-color:#F1B24A;
+       
+      
+}
 body
-{   background-image: linear-gradient( #164A41,#4D774E );
+{   
     font-family:Montserrat;
     
         position: relative;
-        max-width: 800px;
+        max-width: 80%;
         left: 30px;
     
         
