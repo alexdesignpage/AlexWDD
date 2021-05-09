@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Neuton:wght@300&family=Open+Sans&family=Oswald:wght@200;400;500;600&family=PT+Sans:wght@400;700&family=Roboto&family=Roboto+Slab&display=swap');
+
+h1{color:  #4D774;
+    font-family: Oswald;}
+h2{color: #F1B24A;
+    font-family: Oswald;}
+h3{color: #164A41}
+p{color: #4D774E}
+
+
+
+body{
+  background: rgba(255,255,255,1);
+  margin: 150px;
+  padding: 10px 20px 50px 20px;
+  -webkit-box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+  box-shadow: 4px 4px 11px 3px rgba(0,0,0,0.3);
+}
+table, th, td {
+ 
+  border-bottom: 1px solid black;
+  text-align: right;
+ 
+
+}
+
+tr:hover {
+  background-color: #4D774E;
+  color: #ffff;
+  margin: 33px;
+  }
+
+th, td {
+	padding: 10px;
+}
+table {
+  width: 30%;
+  
+  
+}
+
+th {
+  background-color: #F1B24A;
+  height: 30px;
+}
